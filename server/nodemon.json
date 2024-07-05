@@ -1,0 +1,8 @@
+{
+    "watch": ["./", "index.js", "index.ts"],
+    "ignore": ["data/**/*"],
+    "ext": "js,json,ts",
+    "execMap": {
+        "js": "node --harmony"
+    }
+}
